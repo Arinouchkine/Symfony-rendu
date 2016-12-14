@@ -1,3 +1,8 @@
+rendu_cinema:
+    resource: "@RenduCinemaBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
