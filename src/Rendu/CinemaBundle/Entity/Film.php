@@ -36,9 +36,9 @@ class Film
     private $synopsis;
 
     /**
-     * @var string
+     * @var \DateTime
      *
-     * @ORM\Column(name="datedesortie", type="string", length=255)
+     * @ORM\Column(name="datedesortie", type="date")
      */
     private $datedesortie;
 
