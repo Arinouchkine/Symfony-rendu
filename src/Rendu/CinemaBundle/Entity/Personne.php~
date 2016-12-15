@@ -5,12 +5,12 @@ namespace Rendu\CinemaBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Genre
+ * Personne
  *
- * @ORM\Table(name="genre")
- * @ORM\Entity(repositoryClass="Rendu\CinemaBundle\Repository\GenreRepository")
+ * @ORM\Table(name="personne")
+ * @ORM\Entity(repositoryClass="Rendu\CinemaBundle\Repository\PersonneRepository")
  */
-class Genre
+class Personne
 {
     /**
      * @var int
@@ -29,7 +29,21 @@ class Genre
     private $nom;
 
     /**
-     * @ORM\OneToMany(targetEntity="Film", mappedBy="genre")
+     * @var string
+     *
+     * @ORM\Column(name="prenom", type="string", length=255)
+     */
+    private $prenom;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="datedenaissance", type="datetime")
+     */
+    private $datedenaissance;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Film", mappedBy="realisateur")
      */
     private $films;
 
@@ -49,7 +63,7 @@ class Genre
      *
      * @param string $nom
      *
-     * @return Genre
+     * @return Personne
      */
     public function setNom($nom)
     {
@@ -67,6 +81,61 @@ class Genre
     {
         return $this->nom;
     }
+
+    /**
+     * Set prenom
+     *
+     * @param string $prenom
+     *
+     * @return Personne
+     */
+    public function setPrenom($prenom)
+    {
+        $this->prenom = $prenom;
+
+        return $this;
+    }
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="desc", type="text")
+     */
+    private $desc;
+
+    /**
+     * Get prenom
+     *
+     * @return string
+     */
+    public function getPrenom()
+    {
+        return $this->prenom;
+    }
+
+    /**
+     * Set datedenaissance
+     *
+     * @param \DateTime $datedenaissance
+     *
+     * @return Personne
+     */
+    public function setDatedenaissance($datedenaissance)
+    {
+        $this->datedenaissance = $datedenaissance;
+
+        return $this;
+    }
+
+    /**
+     * Get datedenaissance
+     *
+     * @return \DateTime
+     */
+    public function getDatedenaissance()
+    {
+        return $this->datedenaissance;
+    }
     /**
      * Constructor
      */
@@ -80,7 +149,7 @@ class Genre
      *
      * @param \Rendu\CinemaBundle\Entity\Film $film
      *
-     * @return Genre
+     * @return Personne
      */
     public function addFilm(\Rendu\CinemaBundle\Entity\Film $film)
     {

@@ -67,45 +67,5 @@ class Genre
     {
         return $this->nom;
     }
-    /**
-     * Constructor
-     */
-    public function __construct()
-    {
-        $this->films = new \Doctrine\Common\Collections\ArrayCollection();
-    }
-
-    /**
-     * Add film
-     *
-     * @param \Rendu\CinemaBundle\Entity\Film $film
-     *
-     * @return Genre
-     */
-    public function addFilm(\Rendu\CinemaBundle\Entity\Film $film)
-    {
-        $this->films[] = $film;
-
-        return $this;
-    }
-
-    /**
-     * Remove film
-     *
-     * @param \Rendu\CinemaBundle\Entity\Film $film
-     */
-    public function removeFilm(\Rendu\CinemaBundle\Entity\Film $film)
-    {
-        $this->films->removeElement($film);
-    }
-
-    /**
-     * Get films
-     *
-     * @return \Doctrine\Common\Collections\Collection
-     */
-    public function getFilms()
-    {
-        return $this->films;
-    }
 }
+
