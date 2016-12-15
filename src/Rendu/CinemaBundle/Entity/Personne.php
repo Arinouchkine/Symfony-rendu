@@ -97,6 +97,13 @@ class Personne
     }
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="desc", type="text")
+     */
+    private $desc;
+
+    /**
      * Get prenom
      *
      * @return string
@@ -169,5 +176,29 @@ class Personne
     public function getFilms()
     {
         return $this->films;
+    }
+
+    /**
+     * Set desc
+     *
+     * @param string $desc
+     *
+     * @return Personne
+     */
+    public function setDesc($desc)
+    {
+        $this->desc = $desc;
+
+        return $this;
+    }
+
+    /**
+     * Get desc
+     *
+     * @return string
+     */
+    public function getDesc()
+    {
+        return $this->desc;
     }
 }
