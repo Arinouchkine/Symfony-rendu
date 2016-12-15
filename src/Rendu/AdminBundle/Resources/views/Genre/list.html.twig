@@ -1,0 +1,10 @@
+<h1>Liste des Genres :</h1>
+<ul>
+    {% for genre in genres %}
+        <li>
+            <a href="{{ path('admin_genre_modif', {'id': genre.id}) }}">{{ genre.titre }}</a>
+            <a href="{{ path('admin_genre_supprimer', {'id': genre.id}) }}">(x)</a>
+        </li>
+    {% endfor %}
+</ul>
+<a href="{{ path('admin_genre_ajout') }}">Ajouter</a>
