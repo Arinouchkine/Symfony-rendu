@@ -1,7 +1,4 @@
-rendu_cinema2:
-    resource: "@RenduCinema2Bundle/Controller/"
-    type:     annotation
-    prefix:   /
+
 
 rendu_cinema:
     resource: "@RenduCinemaBundle/Controller/"
