@@ -5,7 +5,7 @@ use Rendu\CinemaBundle\Entity\Genre;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Request;
-use Rendu\AdminBundle\Form\GenreType;
+use Rendu\AdminBundle\Form\GenreTypez;
 
 /**
  * @Route("/admin/genres")
@@ -18,7 +18,7 @@ class AdminGenreController extends Controller
     public function addAction(Request $request)
     {
         $genre = new Genre();
-        $form = $this->createForm(GenreType::class, $genre);
+        $form = $this->createForm(GenreTypez::class, $genre);
 
         $form->handleRequest($request);
 
@@ -58,7 +58,7 @@ class AdminGenreController extends Controller
     {
         $genre = $this->getDoctrine()->getRepository('RenduCinemaBundle:Genre')->find($id);
 
-        $form = $this->createForm(GenreType::class, $genre);
+        $form = $this->createForm(GenreTypez::class, $genre);
 
         $form->handleRequest($request);
 

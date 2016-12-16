@@ -164,7 +164,7 @@ class Film
      *
      * @param \Rendu\CinemaBundle\Entity\Genre $genre
      *
-     * @return Livre
+     * @return Film
      */
     public function setGenre(\Rendu\CinemaBundle\Entity\Genre $genre = null)
     {

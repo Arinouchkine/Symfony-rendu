@@ -11,8 +11,8 @@ class PersonneType extends AbstractType
     {
         $builder
             ->add('Nom')
-            ->add('Prénom')
-            ->add('Date de Naissance')
+            ->add('Prenom')
+            ->add('Date_de_Naissance')
             ->add('save', SubmitType::class, array('label' => 'Enregistrer'))
         ;
     }
