@@ -625,7 +625,7 @@
       <workItem from="1481547467048" duration="24000" />
       <workItem from="1481727577286" duration="673000" />
       <workItem from="1481731664320" duration="1638000" />
-      <workItem from="1481812101773" duration="10210000" />
+      <workItem from="1481812101773" duration="10229000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JDL AdminBindle film">
       <created>1481824735935</created>
@@ -655,11 +655,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481908170488</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit JDL AdminBindle done">
+      <created>1481908183477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1481908183477</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12669000" />
+    <option name="totallyTimeSpent" value="12688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1279" height="733" extended-state="0" />
@@ -699,7 +706,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit JDL AdminBindle film" />
     <MESSAGE value="Commit JDL AdminBindle genre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit JDL AdminBindle genre" />
+    <MESSAGE value="Commit JDL AdminBindle done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit JDL AdminBindle done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
