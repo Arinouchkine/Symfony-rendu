@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e482847-e2f4-4b0a-bc34-a89a9385e07d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminCinemaController.php" afterPath="$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminCinemaController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminGenreController.php" afterPath="$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminGenreController.php" />
     </list>
     <ignored path="rendu-symfony.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -627,7 +625,7 @@
       <workItem from="1481547467048" duration="24000" />
       <workItem from="1481727577286" duration="673000" />
       <workItem from="1481731664320" duration="1638000" />
-      <workItem from="1481812101773" duration="10193000" />
+      <workItem from="1481812101773" duration="10210000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JDL AdminBindle film">
       <created>1481824735935</created>
@@ -650,11 +648,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481905137443</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit JDL AdminBindle genre">
+      <created>1481908170488</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1481908170488</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12652000" />
+    <option name="totallyTimeSpent" value="12669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1279" height="733" extended-state="0" />
