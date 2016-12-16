@@ -8,7 +8,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Rendu\AdminBundle\Form\GenreType;
 
 /**
- * @Route("/admin/genre")
+ * @Route("/admin/genres")
  */
 class AdminGenreController extends Controller
 {

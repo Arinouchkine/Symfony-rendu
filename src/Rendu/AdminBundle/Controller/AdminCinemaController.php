@@ -1,10 +1,11 @@
 <?php
 namespace Rendu\AdminBundle\Controller;
 
-use Rendu\AdminBundle\Form\FilmType;
 use Rendu\CinemaBundle\Entity\Film;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Request;
+use Rendu\AdminBundle\Form\FilmType;
 
 
 /**
@@ -13,9 +14,9 @@ use Symfony\Component\HttpFoundation\Request;
 class AdminCinemaController extends Controller
 {
     /**
-     * @Route("/ajout", name="admin_film_ajout)
+     * @Route("/ajout", name="admin_film_ajout")
      */
-    public function addAction()
+    public function addAction(Request $request)
     {
         $film = new Film(); //on crée un nouveau film vide
         $form = $this->createForm(FilmType::class, $film); //on le lie à un formulaire de type filmType
