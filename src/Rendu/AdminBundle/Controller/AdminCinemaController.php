@@ -8,6 +8,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Rendu\AdminBundle\Form\FilmType;
 
 
+
 /**
  * @Route("/admin/cinemas")
  */

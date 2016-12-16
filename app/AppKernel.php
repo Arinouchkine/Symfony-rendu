@@ -2,6 +2,7 @@
 
 use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
 class AppKernel extends Kernel
 {

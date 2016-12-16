@@ -14,4 +14,13 @@ class DefaultController extends Controller
     {
         return $this->render('RenduCinemaBundle:Default:index.html.twig');
     }
+
+    /**
+     * @Route("/Film", name="list_des_films")
+     */
+    public function listFilm()
+    {
+        return $this->render('RenduCinemaBundle:Film:list.html.twig');
+    }
+
 }
