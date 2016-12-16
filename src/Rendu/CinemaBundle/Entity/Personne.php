@@ -201,4 +201,14 @@ class Personne
     {
         return $this->desc;
     }
+
+    /**
+     * Personne
+     *
+     * @ORM\Table(name="personne")
+     * @ORM\Entity(repositoryClass="Rendu\CinemaBundle\Repository\PersonneRepository")
+     */
+    public function __toString() {
+        return $this->nom;
+    }
 }
