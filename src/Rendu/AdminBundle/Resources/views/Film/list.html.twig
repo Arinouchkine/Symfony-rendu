@@ -1,3 +1,5 @@
+{% extends 'RenduAdminBundle::layout.html.twig' %}
+{% block body %}
 <h1>Liste des Films :</h1>
 <ul>
     {% for film in films %}
@@ -8,3 +10,4 @@
     {% endfor %}
 </ul>
 <a href="{{ path('admin_film_ajout') }}">Ajouter</a>
+{% endblock %}

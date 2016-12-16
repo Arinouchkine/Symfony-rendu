@@ -1,3 +1,5 @@
+{% extends 'RenduAdminBundle::layout.html.twig' %}
+{% block body %}
 <h1>Liste des Genres :</h1>
 <ul>
     {% for genre in genres %}
@@ -8,3 +10,4 @@
     {% endfor %}
 </ul>
 <a href="{{ path('admin_genre_ajout') }}">Ajouter</a>
+{% endblock %}

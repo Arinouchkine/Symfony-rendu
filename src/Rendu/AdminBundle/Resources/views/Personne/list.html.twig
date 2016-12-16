@@ -1,3 +1,5 @@
+{% extends 'RenduAdminBundle::layout.html.twig' %}
+{% block body %}
 <h1>Liste des Réalisateurs :</h1>
 <ul>
     {% for personne in personnes %}
@@ -8,3 +10,4 @@
     {% endfor %}
 </ul>
 <a href="{{ path('admin_personne_ajout') }}">Ajouter</a>
+{% endblock %}

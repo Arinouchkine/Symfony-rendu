@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {margin:0;}
+
+        ul.menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        ul.menu li {
+            float: left;
+        }
+
+        ul.menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.menu li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+
+        div.content { padding:20px; margin-top:30px; }
+    </style>
+    <title>Admin</title>
+</head>
+<body>
+
+<ul class="menu">
+    <li><a{% if 'film' in app.request.attributes.get('_route')  %} class="active"{% endif %} href="{{ path('admin_film_liste') }}">Films</a></li>
+    <li><a{% if 'genre' in app.request.attributes.get('_route') %} class="active"{% endif %} href="{{ path('admin_genre_liste') }}">Genres</a></li>
+    <li><a{% if 'personne' in app.request.attributes.get('_route') %} class="active"{% endif %} href="{{ path('admin_personne_liste') }}">Personnes</a></li>
+</ul>
+
+<div class="content">
+    {% block body %}{% endblock %}
+</div>
+
+</body>
+</html>
