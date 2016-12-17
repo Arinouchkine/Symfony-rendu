@@ -35,12 +35,21 @@ class Personne
      */
     private $prenom;
 
+
+
     /**
      * @var \DateTime
      *
      * @ORM\Column(name="datedenaissance", type="datetime")
      */
     private $datedenaissance;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="description", type="text")
+     */
+    private $description;
 
     /**
      * @ORM\OneToMany(targetEntity="Film", mappedBy="realisateur")
@@ -96,12 +105,7 @@ class Personne
         return $this;
     }
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="desc", type="text")
-     */
-    private $desc;
+
 
     /**
      * Get prenom
@@ -136,6 +140,21 @@ class Personne
     {
         return $this->datedenaissance;
     }
+
+    /**
+     * Get datedenaissance
+     *
+     * @return \DateTime
+     */
+    public function getAge()
+    {
+        $daten= $this->datedenaissance;
+        $today = new \DateTime();
+        $diff = $today->diff($daten);
+        return $diff->y;
+    }
+
+
     /**
      * Constructor
      */
@@ -176,5 +195,56 @@ class Personne
     public function getFilms()
     {
         return $this->films;
+    }
+
+    /**
+     * Set desc
+     *
+     * @param string $desc
+     *
+     * @return Personne
+     */
+    public function setDesc($desc)
+    {
+        $this->desc = $desc;
+
+        return $this;
+    }
+
+    /**
+     * Get desc
+     *
+     * @return string
+     */
+    public function getDesc()
+    {
+        return $this->desc;
+    }
+    public function __toString() {
+        return $this->nom;
+    }
+
+    /**
+     * Set description
+     *
+     * @param string $description
+     *
+     * @return Personne
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+
+        return $this;
+    }
+
+    /**
+     * Get description
+     *
+     * @return string
+     */
+    public function getDescription()
+    {
+        return $this->description;
     }
 }

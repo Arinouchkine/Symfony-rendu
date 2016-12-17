@@ -35,12 +35,21 @@ class Personne
      */
     private $prenom;
 
+
+
     /**
      * @var \DateTime
      *
      * @ORM\Column(name="datedenaissance", type="datetime")
      */
     private $datedenaissance;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="description", type="text")
+     */
+    private $description;
 
     /**
      * @ORM\OneToMany(targetEntity="Film", mappedBy="realisateur")
@@ -96,12 +105,7 @@ class Personne
         return $this;
     }
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="desc", type="text")
-     */
-    private $desc;
+
 
     /**
      * Get prenom
@@ -218,5 +222,29 @@ class Personne
     }
     public function __toString() {
         return $this->nom;
+    }
+
+    /**
+     * Set description
+     *
+     * @param string $description
+     *
+     * @return Personne
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+
+        return $this;
+    }
+
+    /**
+     * Get description
+     *
+     * @return string
+     */
+    public function getDescription()
+    {
+        return $this->description;
     }
 }

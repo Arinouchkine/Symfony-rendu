@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4dc2e7f-2ed9-4230-b38f-062a48deb999" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Rendu/CinemaBundle/Resources/views/Film/list2.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Rendu/CinemaBundle/Resources/views/Film/show.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rendu/AdminBundle/Form/FilmType.php" afterPath="$PROJECT_DIR$/src/Rendu/AdminBundle/Form/FilmType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Film/list.html.twig" afterPath="$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Film/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Genre/list.html.twig" afterPath="$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Genre/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Personne/list.html.twig" afterPath="$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Personne/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rendu/CinemaBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/Rendu/CinemaBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rendu/AdminBundle/Form/PersonneType.php" afterPath="$PROJECT_DIR$/src/Rendu/AdminBundle/Form/PersonneType.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rendu/CinemaBundle/Entity/Personne.php" afterPath="$PROJECT_DIR$/src/Rendu/CinemaBundle/Entity/Personne.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rendu/CinemaBundle/Resources/views/Film/list.html.twig" afterPath="$PROJECT_DIR$/src/Rendu/CinemaBundle/Resources/views/Film/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rendu/CinemaBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/Rendu/CinemaBundle/Resources/views/layout.html.twig" />
     </list>
     <ignored path="Symfony-rendu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,23 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rendu/CinemaBundle/Resources/views/Film/show.html.twig">
+      <file leaf-file-name="PersonneType.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Form/PersonneType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+            <state relative-caret-position="340">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
-                <marker date="1481975477429" expanded="true" signature="137:1233" ph="{% block body ...%}" />
+                <element signature="e#41#81#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list2.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rendu/CinemaBundle/Resources/views/Film/list2.html.twig">
+      <file leaf-file-name="AdminPersonneController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminPersonneController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="91" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
+            <state relative-caret-position="289">
+              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -58,7 +49,7 @@
       <file leaf-file-name="AdminCinemaController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminCinemaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-799">
+            <state relative-caret-position="136">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#47#82#0#PHP" expanded="true" />
@@ -67,14 +58,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilmType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Form/FilmType.php">
+      <file leaf-file-name="Personne.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rendu/CinemaBundle/Entity/Personne.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-              <folding>
-                <element signature="e#41#81#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,54 +78,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Film/list.html.twig">
+      <file leaf-file-name="form.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Personne/form.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+            <state relative-caret-position="85">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/layout.html.twig">
+      <file leaf-file-name="form.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Genre/form.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            <state relative-caret-position="34">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Genre/list.html.twig">
+      <file leaf-file-name="FilmType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Form/FilmType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Personne/list.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="108" selection-start-line="6" selection-start-column="108" selection-end-line="6" selection-end-column="108" />
-              <folding>
-                <marker date="1481976195677" expanded="true" signature="51:477" ph="{% block body ...%}" />
-                <marker date="1481976195677" expanded="true" signature="111:399" ph="{% for personne in personnes ...%}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rendu/CinemaBundle/Resources/views/Film/list.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="56" />
+            <state relative-caret-position="58">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -158,13 +124,11 @@
         <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Genre/form.html.twig" />
         <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Form/GenreTypes.php" />
         <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminGenreController.php" />
-        <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Form/PersonneType.php" />
         <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminPersonneController.php" />
         <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Personne/form.html.twig" />
         <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminCinemaController.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/RenduAdminBundle.php" />
-        <option value="$PROJECT_DIR$/src/Rendu/CinemaBundle/Entity/Personne.php" />
         <option value="$PROJECT_DIR$/src/Rendu/CinemaBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/Rendu/CinemaBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/Rendu/CinemaBundle/Resources/views/Film/list.html.twig" />
@@ -174,6 +138,9 @@
         <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Genre/list.html.twig" />
         <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Personne/list.html.twig" />
         <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Form/FilmType.php" />
+        <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Rendu/AdminBundle/Form/PersonneType.php" />
+        <option value="$PROJECT_DIR$/src/Rendu/CinemaBundle/Entity/Personne.php" />
       </list>
     </option>
   </component>
@@ -611,7 +578,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25228000" />
+    <option name="totallyTimeSpent" value="28880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1924" height="1047" extended-state="0" />
@@ -657,14 +624,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Film/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/SensioFrameworkExtraBundle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -735,6 +694,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -743,7 +703,7 @@
         <state relative-caret-position="210">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
-            <element signature="e#41#81#0#PHP" expanded="false" />
+            <element signature="e#41#81#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -752,10 +712,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <marker date="1481976195677" expanded="true" signature="51:477" ph="{% block body ...%}" />
-            <marker date="1481976195677" expanded="true" signature="111:399" ph="{% for personne in personnes ...%}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -763,6 +720,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -856,50 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Genre/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Form/PersonneType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="e#41#81#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Personne/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminPersonneController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-          <folding>
-            <element signature="e#47#86#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminGenreController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#47#83#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -922,14 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendu/CinemaBundle/Entity/Personne.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1012,12 +918,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Personne/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="108" selection-start-line="6" selection-start-column="108" selection-end-line="6" selection-end-column="108" />
+        <state relative-caret-position="204">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Form/GenreType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminGenreController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminCinemaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <marker date="1481976195677" expanded="true" signature="51:477" ph="{% block body ...%}" />
-            <marker date="1481976195677" expanded="true" signature="111:399" ph="{% for personne in personnes ...%}" />
+            <element signature="e#47#82#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Form/FilmType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Genre/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,31 +982,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminCinemaController.php">
+    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Controller/AdminPersonneController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-799">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#82#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Form/FilmType.php">
+    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/Personne/form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rendu/CinemaBundle/Entity/Personne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Form/PersonneType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="e#41#81#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rendu/AdminBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
