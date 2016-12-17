@@ -1,10 +1,10 @@
 {% extends 'RenduCinemaBundle::layout.html.twig' %}
 
-{% block title %}List des films{% endblock %}
+{% block title %}List des films de {{ auth.prenom }} {{ auth.nom }}{% endblock %}
 
 
 {% block body %}
-<div class="row">
+    <div class="row">
 
     <div class="col-md-3">
         <p class="lead">Cinéma</p>
@@ -16,11 +16,11 @@
 
     <div class="col-md-9">
 
-        <h2>Liste des films</h2>
+        <h2>Liste des films de {{ auth.prenom }} {{ auth.nom }}</h2>
 
         <br />
 
-         {% for film in films %}
+        {% for film in films %}
             <div class="thumbnail">
                 <div class="caption-full">
                     <h4 class="pull-right">{{ film.genre }}</h4>
@@ -32,10 +32,10 @@
                     <p>Réalisé par : <a href="{{ path('list_des_realisateurs') }}">{{ film.realisateur }}</a></p>
                 </div>
             </div>
-         {% endfor %}
+        {% endfor %}
 
 
 
-</div>
+    </div>
 
 {% endblock %}

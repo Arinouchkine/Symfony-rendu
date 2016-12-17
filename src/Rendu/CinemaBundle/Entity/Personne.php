@@ -136,6 +136,21 @@ class Personne
     {
         return $this->datedenaissance;
     }
+
+    /**
+     * Get datedenaissance
+     *
+     * @return \DateTime
+     */
+    public function getAge()
+    {
+        $daten= $this->datedenaissance;
+        $today = new \DateTime();
+        $diff = $today->diff($daten);
+        return $diff->y;
+    }
+
+
     /**
      * Constructor
      */

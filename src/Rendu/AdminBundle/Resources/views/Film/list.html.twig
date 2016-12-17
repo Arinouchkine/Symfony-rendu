@@ -4,7 +4,7 @@
 <ul>
     {% for film in films %}
         <li>
-            <a href="{{ path('admin_film_modif', {'id': film.id}) }}">{{ film.nom }}</a>
+            <a href="{{ path('admin_film_modif', {'id': film.id}) }}">{{ film.titre }}</a>
             <a href="{{ path('admin_film_supprimer', {'id': film.id}) }}">(x)</a>
         </li>
     {% endfor %}
